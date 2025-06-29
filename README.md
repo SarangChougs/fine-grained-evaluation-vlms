@@ -44,6 +44,7 @@ This study explores the use of **LLM-as-a-Judge** using **small open-source LLMs
 
 ## 🔍 Project Structure
 
+```
 ├── data/ # Evaluation data
 │ ├── dataset.jsonl/ # Dataset for evaluation
 ├── models/ # Config files and model initialisation scripts
@@ -57,6 +58,7 @@ This study explores the use of **LLM-as-a-Judge** using **small open-source LLMs
 │ └── eval_3.ipynb/ # Evaluation results for 3rd evaluation strategy
 ├── report/ # Final report and appendix
 └── README.md
+```
 
 ---
 
@@ -125,13 +127,14 @@ This study explores the use of **LLM-as-a-Judge** using **small open-source LLMs
 
 ## 📝 Citation
 
+```
 @misc{chouguley2024vlmeval,
 author = {Sarang Ravi Chouguley},
 title = {Fine-Grained Evaluation of VLMs using LLM-as-Judge},
 year = {2024},
 url = {https://github.com/SarangChougs/fine-grained-evaluation-vlms}
 }
-
+```
 ---
 
 ## 📬 Contact
