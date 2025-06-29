@@ -1,0 +1,355 @@
+{
+  "model": "Hermes-2",
+  "results": [
+    {
+      "id": "DSI1",
+      "input": "The bird is a seagull.",
+      "ground_truth": "Class: Bird Family: Sulidae Species: Northern Gannet",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (2 points): The generated text correctly identifies the class as a bird.\n\n2. M2: Correct Identification of Family (0 points): The generated text does not identify the family correctly. The subject's family is Sulidae, whereas the text states'seagull,' which technically doesn't have a precise scientific name.\n\n3. M3: Correct Identification of Species (0 points): The generated text fails to identify the species correctly. It mentions'seagull,' which is a common colloquial term but not scientifically recognized as the Northern Gannet.\n\n4. M4: Additional Contextual Information (0 points): The generated text does not provide any additional relevant information.\n\n5. M5: Overall Accuracy and Relevance (1 point): The generated text is partially accurate and relevant since it identifies the subject as a bird but contains significant errors by incorrectly calling it a'seagull' rather than specifying the Northern Gannet.",
+        "M1": 2,
+        "M2": 0,
+        "M3": 0,
+        "M4": 0,
+        "M5": 1,
+        "total_score": 3
+      }
+    },
+    {
+      "id": "DSI2",
+      "input": "Bird",
+      "ground_truth": "Class: Bird, Family: Eagle, Species: Bald Eagle",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (2 points): The generated text correctly identifies the class as a bird.\n\n2. M2: Correct Identification of Family (0 points): The generated text does not mention the family, Eagle.\n\n3. M3: Correct Identification of Species (0 points): The generated text does not specify the exact species, Bald Eagle.\n\n4. M4: Additional Contextual Information (0 points): The generated text does not contain any additional contextual info.\n\n5. M5: Overall Accuracy and Relevance (1 point): The generated text correctly identifies the class as a bird, but misses out on the family and species details, and offers no additional context.\n\n",
+        "M1": 2,
+        "M2": 0,
+        "M3": 0,
+        "M4": 0,
+        "M5": 1,
+        "total_score": 3
+      }
+    },
+    {
+      "id": "DSI3",
+      "input": "a pelican, which is a large white bird with a long beak.",
+      "ground_truth": "Class:birds Family: Species: Pink Pelican",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (2 points): The generated text correctly identifies the class as a bird.\n\n2. M2: Correct Identification of Family (1 point): The generated text identifies the family but not specific enough. The subject is from the bird family and close to the Pelican Family as mentioned in the Ground Truth, however, it lacks precision. \n\n3. M3: Correct Identification of Species (1 point): The generated text partially identifies the species as Pelican. While this is close, it misses the specific species of Pink Pelican mentioned in the Ground Truth.\n\n4. M4: Additional Contextual Information (0 points): The generated text doesn't offer any further contextual knowledge beyond the brief characterization of the animal.\n\n5. M5: Overall Accuracy and Relevance (1 point): Though the generated text achieves partial accuracy, it inaccurately specifies the species and lacks complete clarity about the subject, hence an overall relevance score of 1.",
+        "M1": 2,
+        "M2": 1,
+        "M3": 1,
+        "M4": 0,
+        "M5": 1,
+        "total_score": 5
+      }
+    },
+    {
+      "id": "DSI4",
+      "input": "a large bird, specifically a crane.",
+      "ground_truth": "Class: Bird, Family: Stork, Species: Marabou Stork",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (2 points): The generated text correctly identifies the class as a bird. \n\n2. M2: Correct Identification of Family (0 points): The generated text partially identifies the family correctly. It mentions 'crane,' which is a close relative of the stork family, but not the ground truth family. \n\n3. M3: Correct Identification of Species (0 points): The generated text fails to identify the species correctly. It mentions 'crane,' while the ground truth species is Marabou Stork. \n\n4. M4: Additional Contextual Information (0 points): The generated text does not provide any additional relevant information. \n\n5. M5: Overall Accuracy and Relevance (1 point): The generated text is partially accurate and relevant since it correctly identifies the class as a bird but contains significant errors by identifying it as a crane instead of a stork",
+        "M1": 2,
+        "M2": 0,
+        "M3": 0,
+        "M4": 0,
+        "M5": 1,
+        "total_score": 3
+      }
+    },
+    {
+      "id": "DSI5",
+      "input": "Parrot",
+      "ground_truth": "Class: Bird, Family: Parrot, Species: African Grey Parrot",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (2 points): The generated text correctly identifies the class as a bird. \n\n2. M2: Correct Identification of Family (2 points): The generated text correctly identifies the family as Parrot.\n\n3. M3: Correct Identification of Species (0 points): The generated text fails to identify the species accurately due to missing specific information. \n\n4. M4: Additional Contextual Information (0 points): The generated text doesn't offer any extra contextual information beyond simply stating 'parrot'. \n\n5. M5: Overall Accuracy and Relevance (2 points): While largely accurate, it lacks specificity; this reduces its overall relevance.",
+        "M1": 2,
+        "M2": 2,
+        "M3": 0,
+        "M4": 0,
+        "M5": 2,
+        "total_score": 6
+      }
+    },
+    {
+      "id": "DSI6",
+      "input": "Flamingo",
+      "ground_truth": "Class: Bird, Family: Flamingo, Species: American Flamingo",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (1 point): The generated text correctly identifies the class as a bird.\n\n2. M2: Correct Identification of Family (2 points): The generated text correctly identifies the family as flamingo.\n\n3. M3: Correct Identification of Species (3 points): The generated text correctly identifies the species as American Flamingo, without indicating only Flamingo.\n\n4. M4: Additional Contextual Information (0 points): The generated text does not provide any additional relevant information.\n\n5. M5: Overall Accuracy and Relevance (2 points): The generated text is mostly accurate and relevant, with minor errors or omissions.",
+        "M1": 1,
+        "M2": 2,
+        "M3": 3,
+        "M4": 0,
+        "M5": 2,
+        "total_score": 8
+      }
+    },
+    {
+      "id": "DSI7",
+      "input": "Ostrich",
+      "ground_truth": "Class: Bird, Family: Ostrich, Species: African Ostrich",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (2 points): The generated text correctly identifies the class as a bird. \n\n2. M2: Correct Identification of Family (3 points): The generated text correctly identifies the family as ostrich (same as Ground Truth).\n\n3. M3: Correct Identification of Species (4 points): The generated text correctly identifies the species, although there's a minor error in that it should actually say African Ostrich (missing the adjective 'African').\n\n4. M4: Additional Contextual Information (0 points): The generated text does not provide any additional relevant information.\n\n5. M5: Overall Accuracy and Relevance (2 points): The generated text is mostly accurate and relevant, with a small error regarding the species name. But overall, it captures most of the necessary info.",
+        "M1": 2,
+        "M2": 3,
+        "M3": 4,
+        "M4": 0,
+        "M5": 2,
+        "total_score": 11
+      }
+    },
+    {
+      "id": "DSI8",
+      "input": "Bird",
+      "ground_truth": "Class: Bird, Family: Crane, Species: Grey Crowned Crane",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (2 points): The generated text correctly identifies the class as a bird.\n\n2. M2: Correct Identification of Family (0 points): The generated text does not identify the family correctly. It simply says 'bird', which does not specify the required level of detail.\n\n3. M3: Correct Identification of Species (0 points): The generated text fails to identify the species correctly. It does not mention the actual species mentioned in the Ground Truth, namely Grey Crowned Crane.\n\n4. M4: Additional Contextual Information (0 points): The generated text does not provide any additional relevant information.\n\n5. M5: Overall Accuracy and Relevance (1 point): The generated text is partially accurate and relevant as it correctly identifies the class as a bird, but it falls short in specifying the species and family as required.",
+        "M1": 2,
+        "M2": 0,
+        "M3": 0,
+        "M4": 0,
+        "M5": 1,
+        "total_score": 3
+      }
+    },
+    {
+      "id": "DSI9",
+      "input": "Parrot",
+      "ground_truth": "Class: Bird, Family: Parrot, Species: Macaw",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (2 points): The generated text correctly identifies the class as a bird. However, it doesn't specify the right sub-class/family (Parrot) mentioned in the ground truth.\n\n2. M2: Correct Identification of Family (0 points): The generated text does not mention the correct family ('Parrot').\n\n3. M3: Correct Identification of Species (0 points): The generated text completely misses the species identification ('Macaw'), which we should have gotten from the answer.\n\n4. M4: Additional Contextual Information (0 points): No particular contextual info provided regarding birds' habits, colors, etc.\n\n5. M5: Overall Accuracy and Relevance (1 point): Partially accurate/relevant due to specifying bird class but omitting important specifics such as the family/group or even the species.",
+        "M1": 2,
+        "M2": 0,
+        "M3": 0,
+        "M4": 0,
+        "M5": 1,
+        "total_score": 3
+      }
+    },
+    {
+      "id": "DSI10",
+      "input": "Seagull",
+      "ground_truth": "Class: Bird, Family: Albatrosses, Species: Great Albatross",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (1 point): The generated text partially identifies the class as a bird - seagulls belong to the bird family, but the ground truth specifies Albatrosses.\n\n2. M2: Correct Identification of Family (0 points): The generated text fails to identify the family correctly. The ground truth specifies Albatrosses, but the text incorrectly identifies it as a seagull.\n\n3. M3: Correct Identification of Species (0 points): The generated text fails to identify the species correctly. It mentions'seagull' which is not related to the Great Albatross.\n\n4. M4: Additional Contextual Information (0 points): The generated text does not provide any additional relevant information.\n\n5. M5: Overall Accuracy and Relevance (1 point): The generated text is partially accurate and relevant as it correctly identifies the fact that it's a bird, but incorrectly identifies the family and species.",
+        "M1": 1,
+        "M2": 0,
+        "M3": 0,
+        "M4": 0,
+        "M5": 1,
+        "total_score": 2
+      }
+    },
+    {
+      "id": "DSI11",
+      "input": "Bird",
+      "ground_truth": "Class: Bird, Family: Parrot, Species: Hyacinth Macaw",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (2 points): The generated text correctly identifies the class as a bird. \n\n2. M2: Correct Identification of Family (0 points): The generated text fails to identify the family correctly. The ground truth family is Parrot, but the generated text simply says 'bird.'\n\n3. M3: Correct Identification of Species (0 points): The generated text fails to identify the species correctly. It lacks any specific identification.\n\n4. M4: Additional Contextual Information (0 points): The generated text does not provide any additional relevant information.\n\n5. M5: Overall Accuracy and Relevance (1 point): The generated text is partially accurate and relevant as it correctly identifies the class as a bird, but it's too vague in terms of family and species and doesn't provide any additional info.",
+        "M1": 2,
+        "M2": 0,
+        "M3": 0,
+        "M4": 0,
+        "M5": 1,
+        "total_score": 3
+      }
+    },
+    {
+      "id": "DSI12",
+      "input": "Bird",
+      "ground_truth": "Class: Bird, Family: Waxbills, Species: Gouldian Finch",
+      "evaluation": {
+        "reasoning": "M1: Correct Identification of Class (2 points): The generated text correctly identifies the class of the subject as a Bird.\n  \nM2: Correct Identification of Family (0 points): The generated text does not identify the family of the subject correctly. It should mention Waxbills, but mentions no family.\n\nM3: Correct Identification of Species (0 points): The generated text fails to identify the species of the subject correctly. It should mention the Gouldian Finch, but mentions no species.\n\nM4: Additional Contextual Information (0 points): The generated text does not provide any additional relevant information.\n\nM5: Overall Accuracy and Relevance (1 point): The generated text is partially accurate and relevant because it identifies the subject as a Bird, which is accurate, but lacks the necessary specificity on the family and species levels.",
+        "M1": 2,
+        "M2": 0,
+        "M3": 0,
+        "M4": 0,
+        "M5": 1,
+        "total_score": 3
+      }
+    },
+    {
+      "id": "DSI13",
+      "input": "Penguin",
+      "ground_truth": "Class: Bird, Family: Penguins, Species: Humboldt Penguin",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (2 points): The generated text correctly identifies the class as a bird.\n\n2. M2: Correct Identification of Family (0 points): The generated text fails to identify the family correctly. It only says 'Penguin', which belongs to the penguin family, while the ground truth family is Penguins.\n\n3. M3: Correct Identification of Species (0 points): The generated text fails to identify the species correctly. It only says 'Penguin', which refers to multiple species, while the ground truth species is Humboldt Penguin.\n\n4. M4: Additional Contextual Information (0 points): The generated text does not provide any additional relevant information.\n\n5. M5: Overall Accuracy and Relevance (1 point): The generated text is partially accurate and relevant since it correctly identifies the class as a bird (bird) but contains significant errors due to lack of specificity in naming the species and family.",
+        "M1": 2,
+        "M2": 0,
+        "M3": 0,
+        "M4": 0,
+        "M5": 1,
+        "total_score": 3
+      }
+    },
+    {
+      "id": "DSI14",
+      "input": "Bird",
+      "ground_truth": "Class: Bird, Family: Cuckoos, Species: Roadrunner",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (2 points): The generated text correctly identifies the class as a bird.\n\n2. M2: Correct Identification of Family (0 points): The generated text fails to identify the family accurately. It simply states 'bird', whereas the ground truth specifies the cuckoo family.\n\n3. M3: Correct Identification of Species (0 points): The generated text fails to identify the species accurately. Instead of specifying 'roadrunner', it merely says 'bird'.\n\n4. M4: Additional Contextual Information (0 points): The generated text does not offer any extra contextually rich info pertaining to the provided ground truth roadrunner.\n\n5. M5: Overall Accuracy and Relevance (1 point): The generated text reveals partial accuracy as it confirms the correct category; however, its failure to recognize both the precise family and species undermines its reliability overall.",
+        "M1": 2,
+        "M2": 0,
+        "M3": 0,
+        "M4": 0,
+        "M5": 1,
+        "total_score": 3
+      }
+    },
+    {
+      "id": "DSI15",
+      "input": "Bird",
+      "ground_truth": "Class: Bird, Family: Parrot, Species: Ring-necked Parakeet",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (2 points): The generated text correctly identifies the class as a bird.\n  \n2. M2: Correct Identification of Family (0 points): The generated text fails to identify the family correctly. It says 'Parrot', but the ground truth specifies Ring-necked Parakeet, making the identification too broad.\n\n3. M3: Correct Identification of Species (0 points): The generated text fails to identify the species correctly. It simply says 'bird', which doesn't specify the Ring-necked Parakeet.\n\n4. M4: Additional Contextual Information (0 points): The generated text does not provide any additional relevant information.\n\n5. M5: Overall Accuracy and Relevance (1 point): The generated text is partially accurate and relevant, as it correctly identifies that it's a bird, but fails to provide the correct family and species.",
+        "M1": 2,
+        "M2": 0,
+        "M3": 0,
+        "M4": 0,
+        "M5": 1,
+        "total_score": 3
+      }
+    },
+    {
+      "id": "DSI16",
+      "input": "Hummingbird",
+      "ground_truth": "Class: Bird, Family: Hummingbird, Species: Blue-chinned sapphire",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (2 points): The generated text correctly identifies the class as a bird.\n\n2. M2: Correct Identification of Family (0 points): The generated text fails to identify the family correctly. While the answer is part of the hummingbird family, it doesn't specify.\n\n3. M3: Correct Identification of Species (0 points): The generated text fails to identify the species correctly. The answer only says 'hummingbird', which covers many taxa.\n\n4. M4: Additional Contextual Information (0 points): The generated text does nothing more than name the group.\n\n5. M5: Overall Accuracy and Relevance (1 point): The generated text provides partial accuracy as it correctly identifies the class of birds, however contains significant errors in regard to the identification of the family and species.",
+        "M1": 2,
+        "M2": 0,
+        "M3": 0,
+        "M4": 0,
+        "M5": 1,
+        "total_score": 3
+      }
+    },
+    {
+      "id": "DSI17",
+      "input": "Bird",
+      "ground_truth": "Class: Bird, Family: Cockatoos, Species: Inca Cockatoo",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (2 points): The generated text correctly identifies the class as a bird. \n\n2. M2: Correct Identification of Family (0 points): The generated text fails to identify the family correctly. It should have been 'Cockatoos', but the answer is just 'bird'. \n\n3. M3: Correct Identification of Species (0 points): The generated text fails to identify the species correctly. Instead of being precise about the Inca Cockatoo, it simply says 'bird'.\n\n4. M4: Additional Contextual Information (0 points): The generated text does not provide any additional relevant information.\n\n5. M5: Overall Accuracy and Relevance (1 point): The generated text is partially accurate and relevant as it correctly identifies the class as a bird but incorrectly identifies the family and species.",
+        "M1": 2,
+        "M2": 0,
+        "M3": 0,
+        "M4": 0,
+        "M5": 1,
+        "total_score": 3
+      }
+    },
+    {
+      "id": "DSI18",
+      "input": "Peacock",
+      "ground_truth": "Class: Bird, Family: Peafowl, Species: Indian Peafowl",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (2 points): The generated text correctly identifies the class as a bird.\n\n2. M2: Correct Identification of Family (1 point): The generated text partially identifies the family as Peafowl, which is partially correct since the ground truth specifies the Peafowl family but doesn't specify the Indian Peafowl specifically.\n\n3. M3: Correct Identification of Species (0 points): The generated text fails to identify the species correctly. It mentions 'Peacock' which is slightly related to the Indian Peafowl but not specific enough.\n\n4. M4: Additional Contextual Information (0 points): The generated text does not provide any additional relevant information.\n\n5. M5: Overall Accuracy and Relevance (2 points): The generated text is mostly accurate and relevant since it correctly identifies the class as a bird and partially identifies the family as Peafowl; however, it lacks specification and fails to identify the species correctly.",
+        "M1": 2,
+        "M2": 1,
+        "M3": 0,
+        "M4": 0,
+        "M5": 2,
+        "total_score": 5
+      }
+    },
+    {
+      "id": "DSI19",
+      "input": "Bird",
+      "ground_truth": "Class: Bird, Family: Toucan, Species: Toco Toucan",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (2 points): The generated text correctly identifies the class as a bird. \n\n2. M2: Correct Identification of Family (0 points): The generated text fails to identify the family correctly and doesn't provide any specific information.\n\n3. M3: Correct Identification of Species (0 points): The generated text fails to identify the species correctly, simply stating 'bird.'\n\n4. M4: Additional Contextual Information (0 points): The generated text doesn't provide any additional relevant information about the animal.\n\n5. M5: Overall Accuracy and Relevance (1 point): The generated text is partially accurate and relevant since it correctly identifies the class as a bird but lacks specificity about the Toucan family and species.",
+        "M1": 2,
+        "M2": 0,
+        "M3": 0,
+        "M4": 0,
+        "M5": 1,
+        "total_score": 3
+      }
+    },
+    {
+      "id": "DSI20",
+      "input": "a bird, specifically a blue-footed booby.",
+      "ground_truth": "Class: Bird, Family: Booby, Species: Blue-footed Booby",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (2 points): The generated text correctly identifies the class as a bird.\n\n2. M2: Correct Identification of Family (3 points): The generated text correctly identifies the family as Booby.\n\n3. M3: Correct Identification of Species (5 points): The generated text correctly identifies the species as Blue-footed Booby.\n\n4. M4: Additional Contextual Information (0 points): The generated text does not provide any additional relevant information.\n\n5. M5: Overall Accuracy and Relevance (3 points): The generated text is highly accurate and relevant to the ground truth.\n\n",
+        "M1": 2,
+        "M2": 3,
+        "M3": 5,
+        "M4": 0,
+        "M5": 3,
+        "total_score": 13
+      }
+    },
+    {
+      "id": "DSI21",
+      "input": "a bird, specifically a parrot.",
+      "ground_truth": "Class: Bird, Family: Frigatebird, Species: Magnificent frigatebird ",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (2 points): The generated text correctly identifies the class as a bird.\n\n2. M2: Correct Identification of Family (0 points): The generated text fails to identify the family correctly. The ground truth family is Frigatebird, while the generated text incorrectly identifies it as a parrot.\n\n3. M3: Correct Identification of Species (0 points): The generated text fails to identify the species correctly. It mentions 'parrot,' which is not related to the Magnificent frigatebird.\n\n4. M4: Additional Contextual Information (0 points): The generated text does not provide any additional relevant information.\n\n5. M5: Overall Accuracy and Relevance (0 points): The generated text fails to accurately identify both the family and species, making it irrelevant beyond identifying the general class.",
+        "M1": 2,
+        "M2": 0,
+        "M3": 0,
+        "M4": 0,
+        "M5": 0,
+        "total_score": 2
+      }
+    },
+    {
+      "id": "DSI22",
+      "input": "a large, long-legged bird, possibly a type of ostrich or emu. These birds are known for their distinctive appearance and long legs, which enable them to run at high speeds.",
+      "ground_truth": "Class: Bird, Family: Emu, Species: Emu",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (2 points): The generated text correctly identifies the class as a bird.\n\n2. M2: Correct Identification of Family (2 points): The generated text identifies the family as being akin to ostriches or emus although not specific, indicating some knowledge of this group.\n\n3. M3: Correct Identification of Species (2 points): The generated text identifies the species vaguely as something close to an ostrich or emu, showing some familiarity with these birds.\n\n4. M4: Additional Contextual Information (2 points): The generated text provides additional correct and relevant information about these large birds, mentioning their distinct appearance and ability to run fast.\n\n5. M5: Overall Accuracy and Relevance (2 points): The generated text is fairly accurate and relevant as it correctly identifies the class as a bird and provides relevant contextual details even though the family and species are mentioned vaguely.",
+        "M1": 2,
+        "M2": 2,
+        "M3": 2,
+        "M4": 2,
+        "M5": 2,
+        "total_score": 10
+      }
+    },
+    {
+      "id": "DSI23",
+      "input": "Parrot",
+      "ground_truth": "Class: Bird, Family: Cockatoo, Species: Cockatiel",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (2 points): The generated text correctly identifies the class as a bird.\n\n2. M2: Correct Identification of Family (0 points): The generated text does not identify the family correctly. The ground truth specifies the Cockatoo family, but the text incorrectly identifies it as Parrot.\n\n3. M3: Correct Identification of Species (0 points): The generated text fails to identify the species correctly. It mentions 'Parrot', which is not related to the Cockatiel.\n\n4. M4: Additional Contextual Information (0 points): The generated text does not provide any additional relevant information.\n\n5. M5: Overall Accuracy and Relevance (1 point): The generated text is partially accurate and relevant since it identifies the subject as a bird but contains significant errors by identifying it as a Parrot instead of a Cockatiel.",
+        "M1": 2,
+        "M2": 0,
+        "M3": 0,
+        "M4": 0,
+        "M5": 1,
+        "total_score": 3
+      }
+    },
+    {
+      "id": "DSI24",
+      "input": "Bird",
+      "ground_truth": "Class: Bird, Family: Eagle, Species: Harpy Eagle",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (2 points): The generated text correctly identifies the class as a bird.\n\n2. M2: Correct Identification of Family (0 points): The generated text does not identify the family correctly. The subject is an Eagle but the text just says 'bird'.\n\n3. M3: Correct Identification of Species (0 points): The generated text fails to identify the species correctly. It doesn't mention the species at all.\n\n4. M4: Additional Contextual Information (0 points): The generated text does not provide any additional relevant information.\n\n5. M5: Overall Accuracy and Relevance (0 points): The generated text is mostly inaccurate and irrelevant since it identifies the class correctly but omits key details such as the family and species and provides no contextual information.",
+        "M1": 2,
+        "M2": 0,
+        "M3": 0,
+        "M4": 0,
+        "M5": 0,
+        "total_score": 2
+      }
+    },
+    {
+      "id": "DSI25",
+      "input": "a large bird, specifically a vulture.",
+      "ground_truth": "Class: Bird, Family: New World Vultures, Species: Condor",
+      "evaluation": {
+        "reasoning": "1. M1: Correct Identification of Class (2 points): The generated text accurately identifies the class as a bird.\n\n2. M2: Correct Identification of Family (2 points): The generated text correctly identifies the family as New World Vultures, matching the ground truth.\n\n3. M3: Correct Identification of Species (3 points): The generated text partially identifies the species, mentioning 'Condor' although some confusion might arise from the fact that Condors belong to the New World Vultures family; however, this is still fairly specific.\n\n4. M4: Additional Contextual Information (0 points): The generated text doesn't provide any additional context or information beyond what's already mentioned.\n\n5. M5: Overall Accuracy and Relevance (2 points): The generated text has moderate accuracy and relevance, providing part of the necessary identification information (class and family) while lacking specifics about the species (other than Condor) and providing little contextual information. Thus it earns two points in this category.\n",
+        "M1": 2,
+        "M2": 2,
+        "M3": 3,
+        "M4": 0,
+        "M5": 2,
+        "total_score": 9
+      }
+    }
+  ]
+}

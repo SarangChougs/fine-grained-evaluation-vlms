@@ -1,0 +1,179 @@
+{
+  "results": [
+    {
+      "model": "Phi",
+      "id": "DSI1",
+      "input": "The bird is a seagull.",
+      "ground_truth": "Northern Gannet",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the word 'bird' which is partially matches with the word 'Northern Gannet' in the ground truth. However, the specific type of bird mentioned in the answer (seagull) does not match the specific type of bird in the ground truth (Northern Gannet).\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI2",
+      "input": "Bird",
+      "ground_truth": "Bald Eagle",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the word 'bird' which is partially matches with the word 'Bald Eagle' in the ground truth. However, it does not fully match the ground truth as it does not specify the type of bird, which is 'Bald Eagle'.\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI3",
+      "input": "a pelican, which is a large white bird with a long beak.",
+      "ground_truth": "Pink Pelican",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the word 'pelican' which partially matches with the word 'Pink Pelican' in the ground truth. However, the color 'pink' is not mentioned in the answer.\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI4",
+      "input": "a large bird, specifically a crane.",
+      "ground_truth": "Marabou Stork",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the word 'bird' which is partially matches with the word 'Marabou Stork' in the ground truth. However, the specific type of bird mentioned in the answer (crane) does not match the specific type of bird in the ground truth (Marabou Stork).\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI5",
+      "input": "Parrot",
+      "ground_truth": "African Grey Parrot",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the word 'Parrot' which is partially matching with the word 'African Grey Parrot' in the ground truth. However, it does not include the specific type of parrot, which is 'African Grey'.\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI6",
+      "input": "Flamingo",
+      "ground_truth": "American Flamingo",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the word 'Flamingo' which is partially matches with the word 'American Flamingo' in the ground truth. However, it does not include the word 'American' which is part of the ground truth.\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI7",
+      "input": "Ostrich",
+      "ground_truth": "African Ostrich",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the word 'ostrich' which is partially matches with the word 'African ostrich' in the ground truth. However, it does not include the word 'African' which is part of the ground truth.\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI8",
+      "input": "Bird",
+      "ground_truth": "Grey Crowned Crane",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the word 'bird' which is partially matches with the word 'Grey Crowned Crane' in the ground truth. However, the answer does not provide the specific type of bird as requested in the question.\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI9",
+      "input": "Parrot",
+      "ground_truth": "Macaw",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the word 'parrot' which is partially matches with the word 'Macaw' in the ground truth. Macaw is a type of parrot, so the answer is relevant and partially matches the ground truth.\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI10",
+      "input": "Seagull",
+      "ground_truth": "Great Albatross",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the word 'bird', which is partially matching with the ground truth 'Great Albatross'. However, the answer does not exactly match the ground truth as it is a different type of bird.\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI11",
+      "input": "Bird",
+      "ground_truth": "Hyacinth Macaw",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the word 'bird' which is partially matches with the ground truth 'Hyacinth Macaw' as it is a type of bird. However, the answer does not fully match the ground truth as it does not specify the exact type of bird, which is the Hyacinth Macaw.\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI12",
+      "input": "Bird",
+      "ground_truth": "Gouldian Finch",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the word 'bird' which is partially matches with the word 'Gouldian Finch' in the ground truth. However, the answer is not as specific as the ground truth, which is a specific type of bird.\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI13",
+      "input": "Penguin",
+      "ground_truth": "Humboldt Penguin",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the word 'penguin' which is partially matches with the word 'Humboldt Penguin' in the ground truth. However, it does not fully match the ground truth as it lacks the specificity of the 'Humboldt' part.\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI14",
+      "input": "Bird",
+      "ground_truth": "Roadrunner",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the word 'bird' which is partially matches with the word 'Roadrunner' in the ground truth. However, the answer is not specific enough as it does not mention the exact type of bird, which is 'Roadrunner'.\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI15",
+      "input": "Bird",
+      "ground_truth": "Ring-necked Parakeet",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the word 'bird' which is partially matches with the word 'Ring-necked Parakeet' in the ground truth. However, the answer is not as specific as the ground truth, which is a specific type of bird.\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI16",
+      "input": "Hummingbird",
+      "ground_truth": "Blue-chinned sapphire",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the word 'bird', which is partially matching with the word'sapphire' in the ground truth. However, the specific type of bird mentioned in the answer (Hummingbird) does not match the specific type of bird in the ground truth (Blue-chinned sapphire).\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI17",
+      "input": "Bird",
+      "ground_truth": "Inca Cockatoo",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the word 'bird' which is partially matches with the word 'Inca Cockatoo' in the ground truth. However, the answer is not as specific as the ground truth, which is a specific type of bird.\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI18",
+      "input": "Peacock",
+      "ground_truth": "Indian Peafowl",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the word 'Peacock' which is partially matches with the word 'Indian Peafowl' in the ground truth. However, it does not include the word 'Indian' which is part of the ground truth.\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI19",
+      "input": "Bird",
+      "ground_truth": "Toco Toucan",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the word 'bird' which is partially matches with the ground truth 'Toco Toucan' as a toucan is a type of bird. However, the answer does not mention the specific type of bird, which is 'Toco Toucan'.\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI20",
+      "input": "a bird, specifically a blue-footed booby.",
+      "ground_truth": "Blue-footed Booby",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the words 'bird' and 'blue-footed booby', which partially match with the words 'blue-footed booby' in the ground truth. The word 'booby' is not an exact match, but the overall answer is close to the ground truth.\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI21",
+      "input": "a bird, specifically a parrot.",
+      "ground_truth": "Magnificent frigatebird ",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the word 'bird' which is partially matches with the word 'Magnificent frigatebird' in the ground truth. However, the specific type of bird mentioned in the answer (parrot) does not match the specific type of bird in the ground truth (frigatebird).\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI22",
+      "input": "a large, long-legged bird, possibly a type of ostrich or emu. These birds are known for their distinctive appearance and long legs, which enable them to run at high speeds.",
+      "ground_truth": "Emu",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the word 'emu' which is partially matches with the word 'Emu' in the ground truth. However, the answer also includes additional information about the bird's appearance and abilities, which is not present in the ground truth.\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI23",
+      "input": "Parrot",
+      "ground_truth": "Cockatiel",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the word 'parrot' which is partially matches with the word 'cockatiel' in the ground truth. A cockatiel is a type of parrot, so there is a connection between the two words.\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI24",
+      "input": "Bird",
+      "ground_truth": "Harpy Eagle",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the word 'bird' which is partially matches with the word 'Harpy Eagle' in the ground truth. However, the answer is not specific enough as it does not mention the type of bird, which is 'Harpy Eagle'.\",\n  \"final_score\": 0.5\n}"
+    },
+    {
+      "model": "Phi",
+      "id": "DSI25",
+      "input": "a large bird, specifically a vulture.",
+      "ground_truth": "Condor",
+      "evaluation": " {\n  \"reasoning\": \"The answer contains the words 'large bird' and 'vulture', which partially match with the ground truth 'Condor'. Although the answer does not exactly match the ground truth, it provides a specific type of bird that is similar to a condor.\",\n  \"final_score\": 0.5\n}"
+    }
+  ]
+}

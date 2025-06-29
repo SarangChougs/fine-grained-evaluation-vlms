@@ -1,0 +1,162 @@
+{"id": "DSI1", "response": "a peacock, which is a large, colorful bird known for its distinctive plumage and elaborate tail feathers.", "ground_truth": "Class:birds Family: Species: Great Bustard", "type": "birds"}
+{"id": "DSI2", "response": "Bird", "ground_truth": "Class:birds Family: Species: Bald Eagle", "type": "birds"}
+{"id": "DSI3", "response": "a bird, specifically a parrot.", "ground_truth": "Class:birds Family: Species: Bird of Paradise", "type": "birds"}
+{"id": "DSI4", "response": "a large bird, specifically a crane.", "ground_truth": "Class:birds Family: Species: Marabou Stork", "type": "birds"}
+{"id": "DSI5", "response": "Parrot", "ground_truth": "Class:birds Family: Species: African Grey Parrot", "type": "birds"}
+{"id": "DSI6", "response": "Flamingo", "ground_truth": "Class:birds Family: Species: Flamingo", "type": "birds"}
+{"id": "DSI7", "response": "Ostrich", "ground_truth": "Class:birds Family: Species: African Ostrich", "type": "birds"}
+{"id": "DSI8", "response": "Bird", "ground_truth": "Class:birds Family: Species: Grey Crowned Crane", "type": "birds"}
+{"id": "DSI9", "response": "Parrot", "ground_truth": "Class:birds Family: Species: Macaw", "type": "birds"}
+{"id": "DSI10", "response": "Seagull", "ground_truth": "Class:birds Family: Species: Albatross", "type": "birds"}
+{"id": "DSI11", "response": "Bird", "ground_truth": "Class:birds Family: Species: Hyacinth Macaw", "type": "birds"}
+{"id": "DSI12", "response": "Bird", "ground_truth": "Class:birds Family: Species: Gouldian Finch", "type": "birds"}
+{"id": "DSI13", "response": "Penguin", "ground_truth": "Class:birds Family: Species: Humboldt Penguin", "type": "birds"}
+{"id": "DSI14", "response": "Bird", "ground_truth": "Class:birds Family: Species: Roadrunner", "type": "birds"}
+{"id": "DSI15", "response": "Bird", "ground_truth": "Class:birds Family: Species: Ring-necked Parakeet", "type": "birds"}
+{"id": "DSI16", "response": "Hummingbird", "ground_truth": "Class:birds Family: Species: Hummingbird", "type": "birds"}
+{"id": "DSI17", "response": "Bird", "ground_truth": "Class:birds Family: Species: Inca Cockatoo", "type": "birds"}
+{"id": "DSI18", "response": "Peacock", "ground_truth": "Class:birds Family: Species: Peacock (Blue Peafowl)", "type": "birds"}
+{"id": "DSI19", "response": "Bird", "ground_truth": "Class:birds Family: Species: Toucan", "type": "birds"}
+{"id": "DSI20", "response": "a bird, specifically a blue-footed booby.", "ground_truth": "Class:birds Family: Species: Blue-footed Booby", "type": "birds"}
+{"id": "DSI21", "response": "a bird, specifically a parrot.", "ground_truth": "Class:birds Family: Species: Frigatebird", "type": "birds"}
+{"id": "DSI22", "response": "a large, long-legged bird, possibly a type of ostrich or emu. These birds are known for their distinctive appearance and long legs, which enable them to run at high speeds.", "ground_truth": "Class:birds Family: Species: Emu", "type": "birds"}
+{"id": "DSI23", "response": "Parrot", "ground_truth": "Class:birds Family: Species: Cockatiel", "type": "birds"}
+{"id": "DSI24", "response": "Bird", "ground_truth": "Class:birds Family: Species: Harpy Eagle", "type": "birds"}
+{"id": "DSI25", "response": "a large bird, specifically a vulture.", "ground_truth": "Class:birds Family: Species: Condor", "type": "birds"}
+{"id": "DSI26", "response": "Bird", "ground_truth": "Class:birds Family: Species: Budgerigar (Budgie), Parakeet", "type": "birds"}
+{"id": "DSI27", "response": "a red bird, specifically a red-capped chickadee.", "ground_truth": "Class:birds Family: Species: Scarlet Ibis", "type": "birds"}
+{"id": "DSI28", "response": "The bird is a seagull.", "ground_truth": "Class:birds Family: Species: Northern Gannet", "type": "birds"}
+{"id": "DSI29", "response": "Bird", "ground_truth": "Class:birds Family: Species: Zebra Finch", "type": "birds"}
+{"id": "DSI30", "response": "Penguin", "ground_truth": "Class:birds Family: Species: Emperor Penguin", "type": "birds"}
+{"id": "DSI31", "response": "a pelican, which is a large white bird with a long beak.", "ground_truth": "Class:birds Family: Species: Pink Pelican", "type": "birds"}
+{"id": "DSI32", "response": "Bird", "ground_truth": "Class:birds Family: Species: Cockatoo", "type": "birds"}
+{"id": "DSI33", "response": "Bird", "ground_truth": "Class:birds Family: Species: Griffon Vulture", "type": "birds"}
+{"id": "DSI34", "response": "Bird", "ground_truth": "Class:birds Family: Species: Kea (a type of parrot)", "type": "birds"}
+{"id": "DSI35", "response": "a penguin.", "ground_truth": "Class:birds Family: Species: Puffin", "type": "birds"}
+{"id": "DSI36", "response": "a bird, specifically a large, long-legged, and long-necked bird. It is walking across a grassy field, possibly in a park or a natural habitat.", "ground_truth": "Class:birds Family: Species: Secretary Bird", "type": "birds"}
+{"id": "DSI37", "response": "a large, long-nosed fish, possibly a shark or a similar species.", "ground_truth": "Class:fish Family: Species: Groupers", "type": "fish"}
+{"id": "DSI38", "response": "a blue and green sea cucumber.", "ground_truth": "Class:fish Family: Species: Bluespotted Stingray", "type": "fish"}
+{"id": "DSI39", "response": "a fish, specifically a leopard fish.", "ground_truth": "Class:fish Family: Species: Pufferfish", "type": "fish"}
+{"id": "DSI40", "response": "Whale", "ground_truth": "Class:fish Family: Species: Orca (Killer Whale)", "type": "fish"}
+{"id": "DSI41", "response": "Fish", "ground_truth": "Class:fish Family: Species: Swordfish", "type": "fish"}
+{"id": "DSI42", "response": "a manta ray, which is a type of fish.", "ground_truth": "Class:fish Family: Species: Manta Ray", "type": "fish"}
+{"id": "DSI43", "response": "a squid.", "ground_truth": "Class:fish Family: Species: Squid", "type": "fish"}
+{"id": "DSI44", "response": "a butterfly fish, which is a type of tropical fish known for its vibrant colors and unique appearance.", "ground_truth": "Class:fish Family: Species: Butterfly fish", "type": "fish"}
+{"id": "DSI45", "response": "a sea anemone, which is a type of coral.", "ground_truth": "Class:fish Family: Species: Moray Eel", "type": "fish"}
+{"id": "DSI46", "response": "Clownfish", "ground_truth": "Class:fish Family: Species: Clownfish", "type": "fish"}
+{"id": "DSI47", "response": "a fish, specifically a black and white fish with a long tail.", "ground_truth": "Class:fish Family: Species: Sunfish", "type": "fish"}
+{"id": "DSI48", "response": "a blue and yellow butterfly fish.", "ground_truth": "Class:fish Family: Species: Rockfish", "type": "fish"}
+{"id": "DSI49", "response": "a lizard, specifically a red and white striped lizard.", "ground_truth": "Class:fish Family: Species: Lionfish", "type": "fish"}
+{"id": "DSI50", "response": "Fish", "ground_truth": "Class:fish Family: Species: Atlantic Salmon", "type": "fish"}
+{"id": "DSI51", "response": "Shark", "ground_truth": "Class:fish Family: Species: White Shark", "type": "fish"}
+{"id": "DSI52", "response": "a squid.", "ground_truth": "Class:fish Family: Species: Cuttlefish, Sepia", "type": "fish"}
+{"id": "DSI53", "response": "Fish", "ground_truth": "Class:fish Family: Species: Barracuda", "type": "fish"}
+{"id": "DSI54", "response": "a butterfly fish, which is a type of fish known for its unique appearance and swimming behavior.", "ground_truth": "Class:fish Family: Species: Batfish", "type": "fish"}
+{"id": "DSI55", "response": "Shark", "ground_truth": "Class:fish Family: Species: Tiger Shark", "type": "fish"}
+{"id": "DSI56", "response": "Dolphin", "ground_truth": "Class:fish Family: Species: Dolphin", "type": "fish"}
+{"id": "DSI57", "response": "Fish", "ground_truth": "Class:fish Family: Species: Red Snapper", "type": "fish"}
+{"id": "DSI58", "response": "Whale", "ground_truth": "Class:fish Family: Species: Humpback Whale", "type": "fish"}
+{"id": "DSI59", "response": "a large, colorful fish with a long, thin, blue and black striped tail. It is swimming in the water, possibly in the ocean. The fish has a long, thin, blue and black striped tail, which is a distinctive feature of its appearance.", "ground_truth": "Class:fish Family: Species: Sailfish", "type": "fish"}
+{"id": "DSI60", "response": "Fish", "ground_truth": "Class:fish Family: Species: Tuna", "type": "fish"}
+{"id": "DSI61", "response": "Shark", "ground_truth": "Class:fish Family: Species: Whale shark", "type": "fish"}
+{"id": "DSI62", "response": "a fish, specifically a blue and yellow striped fish with a large mouth.", "ground_truth": "Class:fish Family: Species: Cowfish", "type": "fish"}
+{"id": "DSI63", "response": "a long, thin, and slender snake.", "ground_truth": "Class:fish Family: Species: Electric eel", "type": "fish"}
+{"id": "DSI64", "response": "a butterfly fish, which is a type of marine fish known for its vibrant colors and unique appearance.", "ground_truth": "Class:fish Family: Species: Paracanthurus, blue tang fish", "type": "fish"}
+{"id": "DSI65", "response": "a fish with a large, spiky head. It is a type of fish known as a pufferfish, which is characterized by its distinctive appearance and ability to inflate its body when threatened.", "ground_truth": "Class:fish Family: Species: Pufferfish, blowfish, purcupine fish", "type": "fish"}
+{"id": "DSI66", "response": "a cephalopod, specifically an octopus.", "ground_truth": "Class:fish Family: Species: Octopus", "type": "fish"}
+{"id": "DSI67", "response": "a crayfish, which is a type of crustacean.", "ground_truth": "Class:fish Family: Species: Shrimp, crayfish", "type": "fish"}
+{"id": "DSI68", "response": "a large, long-legged, brown, and yellow worm. It is a type of earthworm, which is a common type of worm found in soil and is known for its ability to burrow through the ground.", "ground_truth": "Class:insects Family: Species: Centipede", "type": "insects"}
+{"id": "DSI69", "response": "Butterfly", "ground_truth": "Class:insects Family: Species: Atlas moth", "type": "insects"}
+{"id": "DSI70", "response": "Butterfly", "ground_truth": "Class:insects Family: Species: Giant silk moth", "type": "insects"}
+{"id": "DSI71", "response": "Butterfly", "ground_truth": "Class:insects Family: Species: Blue morpho butterfly", "type": "insects"}
+{"id": "DSI72", "response": "a grasshopper.", "ground_truth": "Class:insects Family: Species: Stick insect", "type": "insects"}
+{"id": "DSI73", "response": "a large, brown, and black insect, possibly a beetle or a similar type of creature. It is laying on a wooden surface, possibly a tree branch or a piece of wood.", "ground_truth": "Class:insects Family: Species: Giant cockroach", "type": "insects"}
+{"id": "DSI74", "response": "a grasshopper.", "ground_truth": "Class:insects Family: Species: Praying mantis", "type": "insects"}
+{"id": "DSI75", "response": "Worm", "ground_truth": "Class:insects Family: Species: Millipede", "type": "insects"}
+{"id": "DSI76", "response": "Butterfly", "ground_truth": "Class:insects Family: Species: Owl butterfly", "type": "insects"}
+{"id": "DSI77", "response": "a large, long-horned insect, likely a type of beetle or a similar insect species. It is characterized by its long antennae and its distinctive appearance. The insect is standing on a tree branch, which is a common habitat for many insect species.", "ground_truth": "Class:insects Family: Species: Hercules beetle", "type": "insects"}
+{"id": "DSI78", "response": "Butterfly", "ground_truth": "Class:insects Family: Species: Emerald swallowtail butterfly", "type": "insects"}
+{"id": "DSI79", "response": "Butterfly", "ground_truth": "Class:insects Family: Species: Birdwing butterfly", "type": "insects"}
+{"id": "DSI80", "response": "a beetle, specifically a gold and black beetle.", "ground_truth": "Class:insects Family: Species: Atlas beetle", "type": "insects"}
+{"id": "DSI81", "response": "a large, brown, and yellow insect, possibly a beetle or a similar type of creature. It is sitting on a tree branch, surrounded by green leaves.", "ground_truth": "Class:insects Family: Species: Elephant beetle", "type": "insects"}
+{"id": "DSI82", "response": "a grasshopper.", "ground_truth": "Class:insects Family: Species: Migratory locusts", "type": "insects"}
+{"id": "DSI83", "response": "a beetle.", "ground_truth": "Class:insects Family: Species: Termite soldier", "type": "insects"}
+{"id": "DSI84", "response": "Insect", "ground_truth": "Class:insects Family: Species: Cicada", "type": "insects"}
+{"id": "DSI85", "response": "Butterfly", "ground_truth": "Class:insects Family: Species: Dragon butterfly (literal translation, may refer to a mythical creature or a specific type of butterfly)", "type": "insects"}
+{"id": "DSI86", "response": "a large, brown, and black insect, possibly a beetle or a similar type of creature. It is sitting on a tree branch, which is a part of a tree stump.", "ground_truth": "Class:insects Family: Species: Giraffe-necked beetle", "type": "insects"}
+{"id": "DSI87", "response": "a large, long-legged, red and black insect, possibly a grasshopper or a similar type of insect.", "ground_truth": "Class:insects Family: Species: Elephant beetle", "type": "insects"}
+{"id": "DSI88", "response": "a large, colorful, striped beetle.", "ground_truth": "Class:insects Family: Species: Goliath beetle", "type": "insects"}
+{"id": "DSI89", "response": "Butterfly", "ground_truth": "Class:insects Family: Species: Monarch butterfly", "type": "insects"}
+{"id": "DSI90", "response": "Butterfly", "ground_truth": "Class:insects Family: Species: (Assuming this is a species name)", "type": "insects"}
+{"id": "DSI91", "response": "Butterfly", "ground_truth": "Class:insects Family: Species: Harlequin butterfly", "type": "insects"}
+{"id": "DSI92", "response": "a large, brown, black, and white insect, specifically a beetle.", "ground_truth": "Class:insects Family: Species: Dung beetle (Scarabaeus)", "type": "insects"}
+{"id": "DSI93", "response": "a grasshopper.", "ground_truth": "Class:insects Family: Species: Green dwarf cicada, leafhopper", "type": "insects"}
+{"id": "DSI94", "response": "a green leaf insect, which is a type of insect that has a leaf-like appearance.", "ground_truth": "Class:insects Family: Species: Walking leaf (insect)", "type": "insects"}
+{"id": "DSI95", "response": "Beaver", "ground_truth": "Class:mammals Family: Species: Ground squirrel", "type": "mammals"}
+{"id": "DSI96", "response": "a monkey.", "ground_truth": "Class:mammals Family: Species: Mandrill", "type": "mammals"}
+{"id": "DSI97", "response": "a polar bear.", "ground_truth": "Class:mammals Family: Species: Walrus", "type": "mammals"}
+{"id": "DSI98", "response": "Polar bear", "ground_truth": "Class:mammals Family: Species: Polar bear", "type": "mammals"}
+{"id": "DSI99", "response": "a llama, which is a type of camelid.", "ground_truth": "Class:mammals Family: Species: Llama", "type": "mammals"}
+{"id": "DSI100", "response": "Panda", "ground_truth": "Class:mammals Family: Species: Giant panda", "type": "mammals"}
+{"id": "DSI101", "response": "a hyena, which is a large carnivorous mammal.", "ground_truth": "Class:mammals Family: Species: Hyena", "type": "mammals"}
+{"id": "DSI102", "response": "a white fox.", "ground_truth": "Class:mammals Family: Species: Arctic Fox", "type": "mammals"}
+{"id": "DSI103", "response": "Elephant", "ground_truth": "Class:mammals Family: Species: Asian Elephant", "type": "mammals"}
+{"id": "DSI104", "response": "a small, brown, and white meerkat.", "ground_truth": "Class:mammals Family: Species: Meerkat", "type": "mammals"}
+{"id": "DSI105", "response": "a wildebeest, which is a type of antelope.", "ground_truth": "Class:mammals Family: Species: Wildebeest", "type": "mammals"}
+{"id": "DSI106", "response": "a hippopotamus.", "ground_truth": "Class:mammals Family: Species: Hippopotamus (River Horse)", "type": "mammals"}
+{"id": "DSI107", "response": "Camel", "ground_truth": "Class:mammals Family: Species: Dromedary (One-humped Camel)", "type": "mammals"}
+{"id": "DSI108", "response": "Monkey", "ground_truth": "Class:mammals Family: Species: Gibbon", "type": "mammals"}
+{"id": "DSI109", "response": "a fox.", "ground_truth": "Class:mammals Family: Species: Jackal", "type": "mammals"}
+{"id": "DSI110", "response": "Giraffe", "ground_truth": "Class:mammals Family: Species: Giraffe", "type": "mammals"}
+{"id": "DSI111", "response": "Brown bear", "ground_truth": "Class:mammals Family: Species: Grizzly Bear", "type": "mammals"}
+{"id": "DSI112", "response": "Camel", "ground_truth": "Class:mammals Family: Species: Camel", "type": "mammals"}
+{"id": "DSI113", "response": "Monkey", "ground_truth": "Class:mammals Family: Species: Chimpanzee", "type": "mammals"}
+{"id": "DSI114", "response": "a raccoon.", "ground_truth": "Class:mammals Family: Species: Raccoon", "type": "mammals"}
+{"id": "DSI115", "response": "a monkey.", "ground_truth": "Class:mammals Family: Species: Baboon", "type": "mammals"}
+{"id": "DSI116", "response": "Dog", "ground_truth": "Class:mammals Family: Species: Dingo", "type": "mammals"}
+{"id": "DSI117", "response": "a small, young fox.", "ground_truth": "Class:mammals Family: Species: Fennec Fox (Desert Fox)", "type": "mammals"}
+{"id": "DSI118", "response": "Monkey", "ground_truth": "Class:mammals Family: Species: Orangutan", "type": "mammals"}
+{"id": "DSI119", "response": "Cow", "ground_truth": "Class:mammals Family: Species: Zebu (a type of cattle)", "type": "mammals"}
+{"id": "DSI120", "response": "a mountain lion, also known as a cougar.", "ground_truth": "Class:mammals Family: Species: Cougar, mountain lion", "type": "mammals"}
+{"id": "DSI121", "response": "a red panda.", "ground_truth": "Class:mammals Family: Species: Red Panda", "type": "mammals"}
+{"id": "DSI122", "response": "Lion", "ground_truth": "Class:mammals Family: Species: Lion", "type": "mammals"}
+{"id": "DSI123", "response": "Zebra", "ground_truth": "Class:mammals Family: Species: Zebra", "type": "mammals"}
+{"id": "DSI124", "response": "Kangaroo", "ground_truth": "Class:mammals Family: Species: Koala", "type": "mammals"}
+{"id": "DSI125", "response": "a coyote, which is a type of wild dog.", "ground_truth": "Class:mammals Family: Species: Coyote", "type": "mammals"}
+{"id": "DSI126", "response": "a leopard.", "ground_truth": "Class:mammals Family: Species: Leopard", "type": "mammals"}
+{"id": "DSI127", "response": "Gorilla", "ground_truth": "Class:mammals Family: Species: Gorilla", "type": "mammals"}
+{"id": "DSI128", "response": "Elephant", "ground_truth": "Class:mammals Family: Species: African Elephant", "type": "mammals"}
+{"id": "DSI129", "response": "a large, horned bull or ox.", "ground_truth": "Class:mammals Family: Species: Water Buffalo", "type": "mammals"}
+{"id": "DSI130", "response": "Cheetah", "ground_truth": "Class:mammals Family: Species: Cheetah", "type": "mammals"}
+{"id": "DSI131", "response": "Tiger", "ground_truth": "Class:mammals Family: Species: Siberian Tiger", "type": "mammals"}
+{"id": "DSI132", "response": "Lizard", "ground_truth": "Class:reptiles Family: Species: Leopard Gecko", "type": "reptiles"}
+{"id": "DSI133", "response": "Alligator", "ground_truth": "Class:reptiles Family: Species: Ganges Gharial", "type": "reptiles"}
+{"id": "DSI134", "response": "Alligator", "ground_truth": "Class:reptiles Family: Species: Mississippi Alligator", "type": "reptiles"}
+{"id": "DSI135", "response": "Frog", "ground_truth": "Class:reptiles Family: Species: Bullfrog", "type": "reptiles"}
+{"id": "DSI136", "response": "Turtle", "ground_truth": "Class:reptiles Family: Species: Green Sea Turtle", "type": "reptiles"}
+{"id": "DSI137", "response": "Lizard", "ground_truth": "Class:reptiles Family: Species: Galapagos Marine Iguana", "type": "reptiles"}
+{"id": "DSI138", "response": "Lizard", "ground_truth": "Class:reptiles Family: Species: Green Iguana", "type": "reptiles"}
+{"id": "DSI139", "response": "Turtle", "ground_truth": "Class:reptiles Family: Species: Leatherback Turtle", "type": "reptiles"}
+{"id": "DSI140", "response": "Turtle", "ground_truth": "Class:reptiles Family: Species: Giant Tortoise", "type": "reptiles"}
+{"id": "DSI141", "response": "Frog", "ground_truth": "Class:reptiles Family: Species: Poison dart frog", "type": "reptiles"}
+{"id": "DSI142", "response": "Lizard", "ground_truth": "Class:reptiles Family: Species: Gila monster", "type": "reptiles"}
+{"id": "DSI143", "response": "Lizard", "ground_truth": "Class:reptiles Family: Species: Bearded dragon", "type": "reptiles"}
+{"id": "DSI144", "response": "Alligator", "ground_truth": "Class:reptiles Family: Species: Crocodile", "type": "reptiles"}
+{"id": "DSI145", "response": "Frog", "ground_truth": "Class:reptiles Family: Species: Poison dart frog", "type": "reptiles"}
+{"id": "DSI146", "response": "a salamander, which is a type of amphibian.", "ground_truth": "Class:reptiles Family: Species: Axolotl", "type": "reptiles"}
+{"id": "DSI147", "response": "Lizard", "ground_truth": "Class:reptiles Family: Species: Day gecko", "type": "reptiles"}
+{"id": "DSI148", "response": "Turtle", "ground_truth": "Class:reptiles Family: Species: Ornate box turtle", "type": "reptiles"}
+{"id": "DSI149", "response": "a large lizard, specifically a Komodo dragon.", "ground_truth": "Class:reptiles Family: Species: Komodo dragon", "type": "reptiles"}
+{"id": "DSI150", "response": "Lizard", "ground_truth": "Class:reptiles Family: Species: Collared lizard", "type": "reptiles"}
+{"id": "DSI151", "response": "a small, colorful frog.", "ground_truth": "Class:reptiles Family: Species: Poison dart frog", "type": "reptiles"}
+{"id": "DSI152", "response": "Spider", "ground_truth": "Class:other Family: Species: European black widow", "type": "other"}
+{"id": "DSI153", "response": "Spider", "ground_truth": "Class:other Family: Species: Peacock spider", "type": "other"}
+{"id": "DSI154", "response": "Crab", "ground_truth": "Class:other Family: Species: Giant crab", "type": "other"}
+{"id": "DSI155", "response": "Spider", "ground_truth": "Class:other Family: Species: Funnel-web spider", "type": "other"}
+{"id": "DSI156", "response": "Crab", "ground_truth": "Class:other Family: Species: Pocket crab", "type": "other"}
+{"id": "DSI157", "response": "Scorpion", "ground_truth": "Class:other Family: Species: Scorpion", "type": "other"}
+{"id": "DSI158", "response": "a lobster, which is a type of crustacean.", "ground_truth": "Class:other Family: Species: European lobster", "type": "other"}
+{"id": "DSI159", "response": "a crayfish, which is a type of crustacean.", "ground_truth": "Class:other Family: Species: Amano shrimp", "type": "other"}
+{"id": "DSI160", "response": "Crab", "ground_truth": "Class:other Family: Species: Fiddler crab", "type": "other"}
+{"id": "DSI161", "response": "Spider", "ground_truth": "Class:other Family: Species: Mexican redknee tarantula", "type": "other"}
+{"id": "DSI162", "response": "Crab", "ground_truth": "Class:other Family: Species: coconut crab", "type": "other"}

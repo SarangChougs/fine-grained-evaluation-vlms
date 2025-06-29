@@ -1,0 +1,129 @@
+{
+  "results": [
+    {
+      "id": "aenb1",
+      "input": "a peacock, which is a large, colorful bird known for its distinctive plumage and elaborate tail feathers.",
+      "ground_truth": "Class: Bird, Family: Bustard, Species: Great Bustard",
+      "steps_data": [
+        {
+          "step_no": "1",
+          "step_prompt": "[INST] Perform the task according to the task description. DO NOT return any extra text or explanation\nTask Description:\nTake the input and extract words which refer to class, family, or species of the animal. Enclose the result between following tags: <RESULT> </RESULT>\nExample 1:\nInput:\nA peacock is a large, colorful bird known for its distinctive plumage and elaborate tail feathers.\nOutput:\n<RESULT>peacock, bird</RESULT>\nExample 2:\nInput:\nThe bald eagle is a bird of prey found in North America. It has a white head and tail with a dark brown body and wings.\nOutput:\n<RESULT>Bald eagle, bird</RESULT>\nExample 3:\nInput:\na large, long-legged bird, possibly a type of ostrich or emu. These birds are known for their distinctive appearance and long legs, which enable them to run at high speeds.\nOutput:\n<RESULT>bird, ostrich, emu</RESULT>\nYour Turn:\nInput:\na peacock, which is a large, colorful bird known for its distinctive plumage and elaborate tail feathers.\nOutput:\n [/INST]",
+          "step_output": " <RESULT>peacock, bird</RESULT>",
+          "inference_time": 12.89908766746521
+        },
+        {
+          "step_no": "2",
+          "step_prompt": "[INST] Perform the task according to the task description. DO NOT return any extra text or explantion.\nTask Description: For the given keywords, classify them into following groups: class of animal, family of animal, species of animal. Enclose the result between following tags: <RESULT> </RESULT>\nExample 1:\nInput:\nKeywords: peacock, bird\nOutput:\n<RESULT>\nClass: bird\nFamily: peacock\nSpecies: None\n</RESULT>\nExample 2:\nInput:\nKeywords: Bald eagle, bird\nOutput:\n<RESULT>\nClass: bird\nFamily: None\nSpecies: Bald eagle\n</RESULT>\nExample 3:\nInput:\nKeywords: bird, ostrich, emu\nOutput:\n<RESULT>\nClass: bird\nFamily: ostrich, emu\nSpecies: None\n</RESULT>\nYour Turn:\nInput:\npeacock, bird\nOutput:\n [/INST]",
+          "step_output": " <RESULT>\nClass: bird\nFamily: peacock\nSpecies: None\n</RESULT>\n\n---",
+          "inference_time": 27.819767951965332
+        },
+        {
+          "step_no": "3",
+          "step_prompt": "[INST] Perform the task according to the task description. DO NOT return any extra text or explantion.\nTask Description:\nEvaluate the input based on the following score rubric and ground truth. For each criterion, assign the appropriate score and provide a brief justification. Enclose the result between following tags: <RESULT> </RESULT>\nScore Rubric:\nS1: Does the model identify the class of the animal?\n1: for correct\n0: for none\n-1: for incorrect\nS2: Does the model identify the family of the animal?**\n1: for correct\n0: for none\n-1: for incorrect\nS3: Does the model identify the species of the animal?**\n1: for correct\n0: for none\n-1: for incorrect\n\nExample:\nInput:\nClass: Bird, Family: None, Species: Great Bustard\n\nGround Truth:\nClass: Bird, Family: Bustard, Species: Great Bustard\n\nOutput:\nScores and Justifications:\nS1: 1 (Correctly identifies the class as \"bird\")\nS2: 0 (Does not identify the family)\nS3: 1 (Correctly identifies the species as \"Great Bustard\")\n<RESULT>S1: 1, S2: 0, S3: 1</RESULT>\n\nYour Turn:\nInput\n\nClass: bird\nFamily: peacock\nSpecies: None\n\n\nGround Truth\nClass: Bird, Family: Bustard, Species: Great Bustard\n\nScores and Justifications:**\nS1: \nS2: \nS3:\n [/INST]",
+          "step_output": " S1: 0 (Does not correctly identify the class as \"Bird\")\nS2: -1 (Incorrectly identifies the family as \"peacock\")\nS3: 0 (Does not identify the species)\n<RESULT>S1: 0, S2: -1, S3: 0</RESULT>",
+          "inference_time": 80.11708569526672
+        }
+      ]
+    },
+    {
+      "id": "aenb2",
+      "input": "Bird",
+      "ground_truth": "Class: Bird, Family: Eagle, Species: Bald Eagle",
+      "steps_data": [
+        {
+          "step_no": "1",
+          "step_prompt": "[INST] Perform the task according to the task description. DO NOT return any extra text or explanation\nTask Description:\nTake the input and extract words which refer to class, family, or species of the animal. Enclose the result between following tags: <RESULT> </RESULT>\nExample 1:\nInput:\nA peacock is a large, colorful bird known for its distinctive plumage and elaborate tail feathers.\nOutput:\n<RESULT>peacock, bird</RESULT>\nExample 2:\nInput:\nThe bald eagle is a bird of prey found in North America. It has a white head and tail with a dark brown body and wings.\nOutput:\n<RESULT>Bald eagle, bird</RESULT>\nExample 3:\nInput:\na large, long-legged bird, possibly a type of ostrich or emu. These birds are known for their distinctive appearance and long legs, which enable them to run at high speeds.\nOutput:\n<RESULT>bird, ostrich, emu</RESULT>\nYour Turn:\nInput:\nBird\nOutput:\n [/INST]",
+          "step_output": " <RESULT>Bird</RESULT>",
+          "inference_time": 9.682335138320923
+        },
+        {
+          "step_no": "2",
+          "step_prompt": "[INST] Perform the task according to the task description. DO NOT return any extra text or explantion.\nTask Description: For the given keywords, classify them into following groups: class of animal, family of animal, species of animal. Enclose the result between following tags: <RESULT> </RESULT>\nExample 1:\nInput:\nKeywords: peacock, bird\nOutput:\n<RESULT>\nClass: bird\nFamily: peacock\nSpecies: None\n</RESULT>\nExample 2:\nInput:\nKeywords: Bald eagle, bird\nOutput:\n<RESULT>\nClass: bird\nFamily: None\nSpecies: Bald eagle\n</RESULT>\nExample 3:\nInput:\nKeywords: bird, ostrich, emu\nOutput:\n<RESULT>\nClass: bird\nFamily: ostrich, emu\nSpecies: None\n</RESULT>\nYour Turn:\nInput:\nBird\nOutput:\n [/INST]",
+          "step_output": " <RESULT>\nClass: bird\nFamily: None\nSpecies: None\n</RESULT>\n\nPlease note that the output above assumes that only the class \"bird\" is provided as input, with no further information about specific families or species. If more information is provided, the output would be adjusted accordingly.",
+          "inference_time": 69.43812417984009
+        },
+        {
+          "step_no": "3",
+          "step_prompt": "[INST] Perform the task according to the task description. DO NOT return any extra text or explantion.\nTask Description:\nEvaluate the input based on the following score rubric and ground truth. For each criterion, assign the appropriate score and provide a brief justification. Enclose the result between following tags: <RESULT> </RESULT>\nScore Rubric:\nS1: Does the model identify the class of the animal?\n1: for correct\n0: for none\n-1: for incorrect\nS2: Does the model identify the family of the animal?**\n1: for correct\n0: for none\n-1: for incorrect\nS3: Does the model identify the species of the animal?**\n1: for correct\n0: for none\n-1: for incorrect\n\nExample:\nInput:\nClass: Bird, Family: None, Species: Great Bustard\n\nGround Truth:\nClass: Bird, Family: Bustard, Species: Great Bustard\n\nOutput:\nScores and Justifications:\nS1: 1 (Correctly identifies the class as \"bird\")\nS2: 0 (Does not identify the family)\nS3: 1 (Correctly identifies the species as \"Great Bustard\")\n<RESULT>S1: 1, S2: 0, S3: 1</RESULT>\n\nYour Turn:\nInput\n\nClass: bird\nFamily: None\nSpecies: None\n\n\nGround Truth\nClass: Bird, Family: Eagle, Species: Bald Eagle\n\nScores and Justifications:**\nS1: \nS2: \nS3:\n [/INST]",
+          "step_output": " S1: 1 (Correctly identifies the class as \"bird\")\nS2: -1 (Incorrectly identifies the family as \"None\" instead of \"Eagle\")\nS3: -1 (Incorrectly identifies the species as \"None\" instead of \"Bald Eagle\")\n<RESULT>S1: 1, S2: -1, S3: -1</RESULT>",
+          "inference_time": 98.24598240852356
+        }
+      ]
+    },
+    {
+      "id": "aenb3",
+      "input": "a bird, specifically a parrot.",
+      "ground_truth": "Class: Bird, Family: Birds-of-Paradise, Species: Lesser Bird-of-paradise",
+      "steps_data": [
+        {
+          "step_no": "1",
+          "step_prompt": "[INST] Perform the task according to the task description. DO NOT return any extra text or explanation\nTask Description:\nTake the input and extract words which refer to class, family, or species of the animal. Enclose the result between following tags: <RESULT> </RESULT>\nExample 1:\nInput:\nA peacock is a large, colorful bird known for its distinctive plumage and elaborate tail feathers.\nOutput:\n<RESULT>peacock, bird</RESULT>\nExample 2:\nInput:\nThe bald eagle is a bird of prey found in North America. It has a white head and tail with a dark brown body and wings.\nOutput:\n<RESULT>Bald eagle, bird</RESULT>\nExample 3:\nInput:\na large, long-legged bird, possibly a type of ostrich or emu. These birds are known for their distinctive appearance and long legs, which enable them to run at high speeds.\nOutput:\n<RESULT>bird, ostrich, emu</RESULT>\nYour Turn:\nInput:\na bird, specifically a parrot.\nOutput:\n [/INST]",
+          "step_output": " <RESULT>bird, parrot</RESULT>",
+          "inference_time": 11.826335668563843
+        },
+        {
+          "step_no": "2",
+          "step_prompt": "[INST] Perform the task according to the task description. DO NOT return any extra text or explantion.\nTask Description: For the given keywords, classify them into following groups: class of animal, family of animal, species of animal. Enclose the result between following tags: <RESULT> </RESULT>\nExample 1:\nInput:\nKeywords: peacock, bird\nOutput:\n<RESULT>\nClass: bird\nFamily: peacock\nSpecies: None\n</RESULT>\nExample 2:\nInput:\nKeywords: Bald eagle, bird\nOutput:\n<RESULT>\nClass: bird\nFamily: None\nSpecies: Bald eagle\n</RESULT>\nExample 3:\nInput:\nKeywords: bird, ostrich, emu\nOutput:\n<RESULT>\nClass: bird\nFamily: ostrich, emu\nSpecies: None\n</RESULT>\nYour Turn:\nInput:\nbird, parrot\nOutput:\n [/INST]",
+          "step_output": " <RESULT>\nClass: bird\nFamily: None\nSpecies: parrot\n</RESULT>\n\nConfidence: 95%",
+          "inference_time": 33.14315605163574
+        },
+        {
+          "step_no": "3",
+          "step_prompt": "[INST] Perform the task according to the task description. DO NOT return any extra text or explantion.\nTask Description:\nEvaluate the input based on the following score rubric and ground truth. For each criterion, assign the appropriate score and provide a brief justification. Enclose the result between following tags: <RESULT> </RESULT>\nScore Rubric:\nS1: Does the model identify the class of the animal?\n1: for correct\n0: for none\n-1: for incorrect\nS2: Does the model identify the family of the animal?**\n1: for correct\n0: for none\n-1: for incorrect\nS3: Does the model identify the species of the animal?**\n1: for correct\n0: for none\n-1: for incorrect\n\nExample:\nInput:\nClass: Bird, Family: None, Species: Great Bustard\n\nGround Truth:\nClass: Bird, Family: Bustard, Species: Great Bustard\n\nOutput:\nScores and Justifications:\nS1: 1 (Correctly identifies the class as \"bird\")\nS2: 0 (Does not identify the family)\nS3: 1 (Correctly identifies the species as \"Great Bustard\")\n<RESULT>S1: 1, S2: 0, S3: 1</RESULT>\n\nYour Turn:\nInput\n\nClass: bird\nFamily: None\nSpecies: parrot\n\n\nGround Truth\nClass: Bird, Family: Birds-of-Paradise, Species: Lesser Bird-of-paradise\n\nScores and Justifications:**\nS1: \nS2: \nS3:\n [/INST]",
+          "step_output": " S1: 1, S2: -1, S3: -1\nJustification:\nS1: 1 (Correctly identifies the class as \"bird\")\nS2: -1 (Incorrectly identifies the family as \"None\" instead of \"Birds-of-Paradise\")\nS3: -1 (Incorrectly identifies the species as \"parrot\" instead of \"Lesser Bird-of-paradise\")",
+          "inference_time": 110.01649045944214
+        }
+      ]
+    },
+    {
+      "id": "aenb4",
+      "input": "a large bird, specifically a crane.",
+      "ground_truth": "Class: Bird, Family: Stork, Species: Marabou Stork",
+      "steps_data": [
+        {
+          "step_no": "1",
+          "step_prompt": "[INST] Perform the task according to the task description. DO NOT return any extra text or explanation\nTask Description:\nTake the input and extract words which refer to class, family, or species of the animal. Enclose the result between following tags: <RESULT> </RESULT>\nExample 1:\nInput:\nA peacock is a large, colorful bird known for its distinctive plumage and elaborate tail feathers.\nOutput:\n<RESULT>peacock, bird</RESULT>\nExample 2:\nInput:\nThe bald eagle is a bird of prey found in North America. It has a white head and tail with a dark brown body and wings.\nOutput:\n<RESULT>Bald eagle, bird</RESULT>\nExample 3:\nInput:\na large, long-legged bird, possibly a type of ostrich or emu. These birds are known for their distinctive appearance and long legs, which enable them to run at high speeds.\nOutput:\n<RESULT>bird, ostrich, emu</RESULT>\nYour Turn:\nInput:\na large bird, specifically a crane.\nOutput:\n [/INST]",
+          "step_output": " <RESULT>crane, bird</RESULT>",
+          "inference_time": 11.820428371429443
+        },
+        {
+          "step_no": "2",
+          "step_prompt": "[INST] Perform the task according to the task description. DO NOT return any extra text or explantion.\nTask Description: For the given keywords, classify them into following groups: class of animal, family of animal, species of animal. Enclose the result between following tags: <RESULT> </RESULT>\nExample 1:\nInput:\nKeywords: peacock, bird\nOutput:\n<RESULT>\nClass: bird\nFamily: peacock\nSpecies: None\n</RESULT>\nExample 2:\nInput:\nKeywords: Bald eagle, bird\nOutput:\n<RESULT>\nClass: bird\nFamily: None\nSpecies: Bald eagle\n</RESULT>\nExample 3:\nInput:\nKeywords: bird, ostrich, emu\nOutput:\n<RESULT>\nClass: bird\nFamily: ostrich, emu\nSpecies: None\n</RESULT>\nYour Turn:\nInput:\ncrane, bird\nOutput:\n [/INST]",
+          "step_output": " <RESULT>\nClass: bird\nFamily: crane\nSpecies: None\n</RESULT>\n\n### Explanation\n\nIn this task, we need to classify the given keywords into three categories: class of animal, family of animal, and species of animal.\n\nTo do this, we first identify the class of the animal by checking if the keyword is a broad type of animal, such as \"bird\" or \"mammal\". In this case, \"bird\" is the class.\n\nNext, we identify the family of the animal by checking if the keyword is a specific type of animal within the class. For example, \"peacock\" is a type of bird, but \"bird\" is too broad to be considered a family. Instead, \"crane\" is a family of bird, so we categorize \"crane\" as the family.\n\nFinally, we identify the species of the animal by checking if the keyword is a specific subtype of animal within the family. For example, \"Bald eagle\" is a species of bird, but \"bird\" and \"crane\" are too broad to be considered a species. In this case, there is no specific species given, so",
+          "inference_time": 273.4125940799713
+        },
+        {
+          "step_no": "3",
+          "step_prompt": "[INST] Perform the task according to the task description. DO NOT return any extra text or explantion.\nTask Description:\nEvaluate the input based on the following score rubric and ground truth. For each criterion, assign the appropriate score and provide a brief justification. Enclose the result between following tags: <RESULT> </RESULT>\nScore Rubric:\nS1: Does the model identify the class of the animal?\n1: for correct\n0: for none\n-1: for incorrect\nS2: Does the model identify the family of the animal?**\n1: for correct\n0: for none\n-1: for incorrect\nS3: Does the model identify the species of the animal?**\n1: for correct\n0: for none\n-1: for incorrect\n\nExample:\nInput:\nClass: Bird, Family: None, Species: Great Bustard\n\nGround Truth:\nClass: Bird, Family: Bustard, Species: Great Bustard\n\nOutput:\nScores and Justifications:\nS1: 1 (Correctly identifies the class as \"bird\")\nS2: 0 (Does not identify the family)\nS3: 1 (Correctly identifies the species as \"Great Bustard\")\n<RESULT>S1: 1, S2: 0, S3: 1</RESULT>\n\nYour Turn:\nInput\n\nClass: bird\nFamily: crane\nSpecies: None\n\n\nGround Truth\nClass: Bird, Family: Stork, Species: Marabou Stork\n\nScores and Justifications:**\nS1: \nS2: \nS3:\n [/INST]",
+          "step_output": " S1: 1 (Correctly identifies the class as \"bird\")\nS2: -1 (Incorrectly identifies the family as \"crane\" instead of \"Stork\")\nS3: 0 (Does not identify the species)\n<RESULT>S1: 1, S2: -1, S3: 0</RESULT>",
+          "inference_time": 85.53673815727234
+        }
+      ]
+    },
+    {
+      "id": "aenb5",
+      "input": "Parrot",
+      "ground_truth": "Class: Bird, Family: Parrot, Species: African Grey Parrot",
+      "steps_data": [
+        {
+          "step_no": "1",
+          "step_prompt": "[INST] Perform the task according to the task description. DO NOT return any extra text or explanation\nTask Description:\nTake the input and extract words which refer to class, family, or species of the animal. Enclose the result between following tags: <RESULT> </RESULT>\nExample 1:\nInput:\nA peacock is a large, colorful bird known for its distinctive plumage and elaborate tail feathers.\nOutput:\n<RESULT>peacock, bird</RESULT>\nExample 2:\nInput:\nThe bald eagle is a bird of prey found in North America. It has a white head and tail with a dark brown body and wings.\nOutput:\n<RESULT>Bald eagle, bird</RESULT>\nExample 3:\nInput:\na large, long-legged bird, possibly a type of ostrich or emu. These birds are known for their distinctive appearance and long legs, which enable them to run at high speeds.\nOutput:\n<RESULT>bird, ostrich, emu</RESULT>\nYour Turn:\nInput:\nParrot\nOutput:\n [/INST]",
+          "step_output": " <RESULT>parrot</RESULT>",
+          "inference_time": 9.686505556106567
+        },
+        {
+          "step_no": "2",
+          "step_prompt": "[INST] Perform the task according to the task description. DO NOT return any extra text or explantion.\nTask Description: For the given keywords, classify them into following groups: class of animal, family of animal, species of animal. Enclose the result between following tags: <RESULT> </RESULT>\nExample 1:\nInput:\nKeywords: peacock, bird\nOutput:\n<RESULT>\nClass: bird\nFamily: peacock\nSpecies: None\n</RESULT>\nExample 2:\nInput:\nKeywords: Bald eagle, bird\nOutput:\n<RESULT>\nClass: bird\nFamily: None\nSpecies: Bald eagle\n</RESULT>\nExample 3:\nInput:\nKeywords: bird, ostrich, emu\nOutput:\n<RESULT>\nClass: bird\nFamily: ostrich, emu\nSpecies: None\n</RESULT>\nYour Turn:\nInput:\nparrot\nOutput:\n [/INST]",
+          "step_output": " <RESULT>\nClass: bird\nFamily: None\nSpecies: parrot\n</RESULT>\n\nExplanation:\n\"parrot\" is a type of \"bird\" and its classification as a species is \"parrot\". Since \"parrot\" doesn't belong to any specific family, the value for \"Family\" is \"None\".",
+          "inference_time": 80.09800410270691
+        },
+        {
+          "step_no": "3",
+          "step_prompt": "[INST] Perform the task according to the task description. DO NOT return any extra text or explantion.\nTask Description:\nEvaluate the input based on the following score rubric and ground truth. For each criterion, assign the appropriate score and provide a brief justification. Enclose the result between following tags: <RESULT> </RESULT>\nScore Rubric:\nS1: Does the model identify the class of the animal?\n1: for correct\n0: for none\n-1: for incorrect\nS2: Does the model identify the family of the animal?**\n1: for correct\n0: for none\n-1: for incorrect\nS3: Does the model identify the species of the animal?**\n1: for correct\n0: for none\n-1: for incorrect\n\nExample:\nInput:\nClass: Bird, Family: None, Species: Great Bustard\n\nGround Truth:\nClass: Bird, Family: Bustard, Species: Great Bustard\n\nOutput:\nScores and Justifications:\nS1: 1 (Correctly identifies the class as \"bird\")\nS2: 0 (Does not identify the family)\nS3: 1 (Correctly identifies the species as \"Great Bustard\")\n<RESULT>S1: 1, S2: 0, S3: 1</RESULT>\n\nYour Turn:\nInput\n\nClass: bird\nFamily: None\nSpecies: parrot\n\n\nGround Truth\nClass: Bird, Family: Parrot, Species: African Grey Parrot\n\nScores and Justifications:**\nS1: \nS2: \nS3:\n [/INST]",
+          "step_output": " S1: 1 (Correctly identifies the class as \"bird\")\nS2: -1 (Incorrectly identifies the family as \"None\")\nS3: 1 (Correctly identifies the species as \"African Grey Parrot\")\n<RESULT>S1: 1, S2: -1, S3: 1</RESULT>",
+          "inference_time": 88.64196372032166
+        }
+      ]
+    }
+  ]
+}

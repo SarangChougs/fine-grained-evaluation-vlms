@@ -1,0 +1,35 @@
+{
+    "result": {
+        "model": "prometheus-v1",
+        "responses" : [
+            {
+                "id": "DSI1",
+                "input": "a peacock, which is a large, colorful bird known for its distinctive plumage and elaborate tail feathers.",
+                "ground_truth": "[Class]Bird [Family]Bustard [Species]Great Bustard",
+                "result": 2,
+                "feedback": "The response identifies the species of the animal correctly, which is a great peacock. The class of the animal is also correct, being a bird, but it falls short on the family identification, as it simply mentions that the peacock is a bird, without specifying which family it belongs to. According to the scoring rubric, the correctness key is that the response must correctly identify the species, class, and family of the animal. The response only partially meets this requirement, so the overall score is 2."
+            },
+            {
+                "id": "DSI2",
+                "input": "a bird, specifically a parrot.",
+                "ground_truth": "[Class]Bird [Family]Birds-of-Paradise [Species]Lesser Bird-of-paradise",
+                "result": 3,
+                "feedback": "The response identifies the species of the animal correctly, which is why it would get a score of 3. It mentions that the animal in question is a 'parrot'. Parrot is the species of bird. However, it would have scored higher if it mentioned the class and family too, as in the reference response, it only provided information about the species. The information provided is helpful but the omission of additional details results in a slight decrease in the overall score. So the overall score is 3."
+            },
+            {
+                "id": "DSI3",
+                "input": "Parrot",
+                "ground_truth": "[Class]Bird [Family]Parrot [Species]African Grey Parrot",
+                "result": 3,
+                "feedback": "The response has correctly identified the species of the animal, which is 'Parrot'. So the overall score is 3. However, the instructions explicitly asked for a detailed identification, such as class, family and species, to be precise. The response, while correct, did not meet this standard of precision. It's important to note that while the response is technically correct, it lacks depth in terms of specificity. So the overall score is 3, but with room for improvement in future responses."
+            },
+            {
+                "id": "DSI4",
+                "input": "Bird",
+                "ground_truth": "[Class]Bird [Family]Eagle [Species]Bald Eagle",
+                "result": 1,
+                "feedback": "The response correctly identifies the Class of the animal as Bird which is consistent with the rubric's description for a score of 1. The response does not provide further information about the family or species of the bird. There is room for improvement as the user specifically asked for a more specific identification. Although the response is accurate in its own right, it falls short of the level of detail requested by the user. So the overall score is 1."
+            }
+        ]
+    }
+}

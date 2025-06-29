@@ -1,0 +1,35 @@
+{
+    "result": {
+        "model": "prometheus-v2",
+        "responses" : [
+            {
+                "id": "DSI1",
+                "input": "a peacock, which is a large, colorful bird known for its distinctive plumage and elaborate tail feathers.",
+                "ground_truth": "[Class]Bird [Family]Bustard [Species]Great Bustard",
+                "result": 2,
+                "feedback": "The response accurately identifies the species of the animal as a peacock. It mentions that the peacock is a bird, which is correct, but it does not provide information about the family to which it belongs. Although the reference answer is missing, it is generally understood that the peacock is classified under the family of birds called Pavo. Therefore, while the response is partially correct, it fails to fully meet the criteria for a score of 3. This is because a complete score requires the identification of class, family, and species of the animal. However, it is important to note that the response correctly identifies the species and provides a descriptive detail about the animal. So the overall score is 2."
+            },
+            {
+                "id": "DSI2",
+                "input": "a bird, specifically a parrot.",
+                "ground_truth": "[Class]Bird [Family]Birds-of-Paradise [Species]Lesser Bird-of-paradise",
+                "result": 1,
+                "feedback": "The response identifies the class of the animal correctly by mentioning \"a bird\". However, it falls short in specifying the family or species of the animal. While it correctly identifies the class of the animal, it does not provide enough detail for a higher score, which requires identifying the family or species. Therefore, it meets the criteria for a score of 1 according to the score rubric, as it correctly identifies the class but lacks further specificity. So the overall score is 1."
+            },
+            {
+                "id": "DSI3",
+                "input": "Parrot",
+                "ground_truth": "[Class]Bird [Family]Parrot [Species]African Grey Parrot",
+                "result": 0,
+                "feedback": "This response has not met the requirement of the instruction, which was to be as specific as possible, as it merely names the class without further details. The instruction explicitly requested specific information about the class, family, or species of the animal. Therefore, this response has failed to meet the instruction's requirements, as it lacks the specificity required by the instruction. It does not give the reader enough information about the animal's classification, which is necessary for a comprehensive understanding of the animal in question. So the score is 0."
+            },
+            {
+                "id": "DSI4",
+                "input": "Bird",
+                "ground_truth": "[Class]Bird [Family]Eagle [Species]Bald Eagle",
+                "result": 1,
+                "feedback": "The response \"Bird\" correctly identifies the class of the animal. However, it lacks the specificity asked for in the instruction, which calls for class, family, or species identification. Although the response matches the reference answer's class (Bird), it doesn't go into any detail about family or species. This shows an understanding of the basic categories but does not meet the requirements of the task. So the overall score is 1, since the response identifies the class correctly but fails to provide the level of detail requested."
+            }
+        ]
+    }
+}

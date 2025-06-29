@@ -1,0 +1,35 @@
+{
+    "result": {
+        "model": "llama_2",
+        "responses" : [
+            {
+                "id": "aenb1",
+                "input": "a peacock, which is a large, colorful bird known for its distinctive plumage and elaborate tail feathers.",
+                "ground_truth": "[Class]Bird [Family]Bustard [Species]Great Bustard",
+                "result": "no response from model",
+                "feedback": "no feedback from model"
+            },
+            {
+                "id": "aenb3",
+                "input": "a bird, specifically a parrot.",
+                "ground_truth": "[Class]Bird [Family]Birds-of-Paradise [Species]Lesser Bird-of-paradise",
+                "result": 3,
+                "feedback": "The response correctly identifies the Species of the animal."
+            },
+            {
+                "id": "aenb5",
+                "input": "Parrot",
+                "ground_truth": "[Class]Bird [Family]Parrot [Species]African Grey Parrot",
+                "result": 0,
+                "feedback": "It seems like your response has missed the mark by a significant margin. You haven't even identified the genus (family) of the animal. As a score of 0, I expect your next response to be a full answer with class, family and species of the animal. This is a minimum requirement for any assessment I do."
+            },
+            {
+                "id": "aenb2",
+                "input": "Bird",
+                "ground_truth": "[Class]Bird [Family]Eagle [Species]Bald Eagle",
+                "result": "no response from model",
+                "feedback": "no response from model"
+            }
+        ]
+    }
+}

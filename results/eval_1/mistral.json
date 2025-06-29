@@ -1,0 +1,35 @@
+{
+    "result": {
+        "model": "mistral",
+        "responses" : [
+            {
+                "id": "DSI1",
+                "input": "a peacock, which is a large, colorful bird known for its distinctive plumage and elaborate tail feathers.",
+                "ground_truth": "[Class]Bird [Family]Bustard [Species]Great Bustard",
+                "result": 1,
+                "feedback": "Feedback: The response accurately identified the animal as a bird, making it a correct identification at the class level according to the score rubric. However, no mention was made about the family or species of the animal in the response. Therefore, while the response received a score of 1 for identifying the class, no points were awarded for family or species identification. [1]"
+            },
+            {
+                "id": "DSI2",
+                "input": "a bird, specifically a parrot.",
+                "ground_truth": "[Class]Bird [Family]Birds-of-Paradise [Species]Lesser Bird-of-paradise",
+                "result": 1,
+                "feedback": "Feedback: The response identified the animal as a bird and then went on to specify the type of bird as a parrot. This meets the first criterion for identifying the class of the animal, but does not go far enough to meet the higher scoring criteria for identifying the family or species. As such, the response receives a score of 1 for identifying the class of the animal.[1]"
+            },
+            {
+                "id": "DSI3",
+                "input": "Parrot",
+                "ground_truth": "[Class]Bird [Family]Parrot [Species]African Grey Parrot",
+                "result": 1,
+                "feedback": "Feedback: The response 'Parrot' correctly identifies the class of the animal as 'bird,' but fails to provide enough detail to identify either the family or the species. According to the score rubric, the response will receive a score of 1 for correctly identifying the class. [1]"
+            },
+            {
+                "id": "DSI4",
+                "input": "Bird",
+                "ground_truth": "[Class]Bird [Family]Eagle [Species]Bald Eagle",
+                "result": 1,
+                "feedback": "Feedback: While the response correctly identified the animal as a bird, which corresponds to the first criterion in the score rubric, it did not provide enough information to determine whether the response also met the second or third criteria by specifying the family or species of the animal. Consequently, even though the response earned a point under the 'class' category, no additional points could be granted due to the lack of detail provided.[1]"
+            }
+        ]
+    }
+}
